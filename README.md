@@ -49,7 +49,7 @@ flutter pub get
 4. Executa l'aplicació
 flutter run
 
-Això iniciarà l'aplicació en el teu dispositiu o en un emulador.
+Això iniciarà l\'aplicació en el teu dispositiu o en un emulador.
 
 
 📦 Dependències
