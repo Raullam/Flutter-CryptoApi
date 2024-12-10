@@ -18,7 +18,7 @@
 - **API CoinGecko**: API pública i gratuïta per obtenir dades sobre criptomonedes.
 - **Provider**: Per gestionar l'estat de l'aplicació de manera eficaç.
 - **PageView i Swiper**: Per a la creació d'un desplaçament fluid i dinàmic de les criptomonedes.
-- **Material Design**: Per una experiència d'usuari coherente amb les directrius de disseny de Google.
+- **Material Design**: Per una experiència d'usuari coherent amb les directrius de disseny de Google.
 
 ## 📸 **Captures de Pantalla**
 
@@ -32,27 +32,23 @@ A continuació es mostren algunes captures de l'aplicació en acció:
 
 ## 🚀 **Instal·lació**
 
-Segueix aquests passos per executar el projecte localment:
+1. Clona el repositori:
+   ```bash
+   git clone https://github.com/usuari/coingecko-crypto-app.git
+   cd coingecko-crypto-app
+   ```
 
-### 1. Clona el repositori
+2. Instal·la les dependències:
+   ```bash
+   flutter pub get
+   ```
 
-```bash
-git clone https://github.com/raullama/coin-gecko-app.git
+3. Executa l'aplicació:
+   ```bash
+   flutter run
+   ```
 
-2. Accedeix a la carpeta del projecte
-cd coin-gecko-app
-
-3. Instal·la les dependències
-bash
-flutter pub get
-
-4. Executa l\'aplicació
-flutter run
-
-Això iniciarà l'aplicació en el teu dispositiu o en un emulador.
-
-
-📦 **Dependències**
+## 📦 **Dependències**
 
 El projecte utilitza les següents dependències:
 
@@ -62,49 +58,53 @@ El projecte utilitza les següents dependències:
 - **flutter_svg**: Per a suport SVG (si és necessari per als gràfics).
 - **cached_network_image**: Per a la càrrega eficient d'imatges en xarxa.
 
-📝 **Com Contribuir**
+## 📝 **Com Contribuir**
 
 Les contribucions són benvingudes! Si vols millorar el projecte o reportar un bug, segueix els següents passos:
 
 1. Fes un fork del repositori.
-2. Crea una nova branca (`git checkout -b feature/nova-caracteristica`).
-3. Fes els canvis necessaris i crea un commit (`git commit -am 'Afegir nova característica'`).
-4. Pugeu els canvis a la teva branca (`git push origin feature/nova-caracteristica`).
+2. Crea una nova branca:
+   ```bash
+   git checkout -b feature/nova-caracteristica
+   ```
+3. Fes els canvis necessaris i crea un commit:
+   ```bash
+   git commit -am 'Afegir nova característica'
+   ```
+4. Pugeu els canvis a la teva branca:
+   ```bash
+   git push origin feature/nova-caracteristica
+   ```
 5. Obre una pull request per fusionar els canvis.
 
-⚙️ **Funcionalitats Planificades**
+## ⚙️ **Funcionalitats Planificades**
 
 - 📈 **Gràfics de preus**: Visualització de gràfics d'evolució del preu de les criptomonedes.
 - 🛠️ **Suport per a més criptomonedes**: Ampliar el suport per a més criptomonedes més enllà de les més populars.
 - 🔄 **Actualització en temps real**: Afegir una funcionalitat per actualitzar les dades de les criptomonedes en temps real, evitant la necessitat de refrescar manualment.
-🗣️ Contacte
+
+## 🗣️ **Contacte**
+
 Si tens alguna pregunta o suggeriment, no dubtis a posar-te en contacte amb nosaltres. També pots seguir-nos a les nostres xarxes socials!
 
-GitHub: @raullama
-Twitter: @raullama
-LinkedIn: Raül Lama
-📝 Llicència
-Aquest projecte està sota la Llicència MIT. Consulta el fitxer LICENSE per obtenir més detalls.
+- **GitHub**: [@raullama](https://github.com/raullama)
+- **Twitter**: [@raullama](https://twitter.com/raullama)
+- **LinkedIn**: [Raül Lama](https://www.linkedin.com/in/raullama/)
 
+## 📝 **Llicència**
 
-### Explicació dels canvis:
+Aquest projecte està sota la [Llicència MIT](./LICENSE). Consulta el fitxer LICENSE per obtenir més detalls.
+
+---
+
+### ✍️ **Explicació dels canvis**
 
 1. **Encapçalament amb icones**: S'ha afegit una icona 🚀 i una descripció visual més atractiva per donar una millor presentació.
-   
 2. **Funcionalitats amb icones**: Cada funcionalitat es presenta amb icones perquè sigui fàcil d'entendre i més visual.
-
-3. **Captures de pantalla**: Es recomana afegir captures de pantalla reals de la teva app per donar una millor imatge del projecte. Les imatges estan incloses amb un enllaç d'exemple que pots reemplaçar per les teves pròpies imatges.
-
-4. **Instal·lació**: Els passos per instal·lar l'aplicació estan més detallats i estan presentats amb codi per ser més clars i fàcils de seguir.
-
-5. **Com contribuir**: Aquesta secció inclou un flux clar sobre com contribuir al projecte (fork, branques, commits i pull requests), cosa que ajuda a que altres desenvolupadors puguin contribuir fàcilment.
-
-6. **Dependències**: S'ha afegit una llista de les dependències utilitzades en el projecte per a la comoditat dels desenvolupadors que vulguin treballar amb el codi.
-
-7. **Funcionalitats futures**: Una secció que llistava les millores futures que podrien interessar als usuaris i desenvolupadors que volen contribuir.
-
-8. **Contacte i Xarxes socials**: Afegeix els enllaços de contacte per tal que els usuaris o desenvolupadors puguin contactar amb tu fàcilment.
-
-9. **Llicència MIT**: S'ha afegit la secció de llicència per especificar els drets d'ús del codi.
-
-Aquest README és molt complet, visualment ric i informatiu. Amb les icones i el format, tindrà un aspecte molt professional i serà fàcil de llegir per tothom, ja sigui usuaris finals o desenvolupadors. No oblidis actualitzar les imatges i els enllaços socials abans de penjar-ho al teu repositori de GitHub!
+3. **Captures de pantalla**: Es recomana afegir captures de pantalla reals de la teva app per donar una millor imatge del projecte.
+4. **Instal·lació**: Els passos per instal·lar l'aplicació estan més detallats i presentats amb codi per ser més clars i fàcils de seguir.
+5. **Com contribuir**: Aquesta secció inclou un flux clar sobre com contribuir al projecte.
+6. **Dependències**: S'ha afegit una llista de les dependències utilitzades.
+7. **Funcionalitats futures**: Llista de millores futures que podrien interessar als usuaris i desenvolupadors.
+8. **Contacte i Xarxes socials**: Afegeix els enllaços de contacte.
+9. **Llicència MIT**: S'ha afegit la secció de llicència.
