@@ -52,26 +52,31 @@ flutter run
 Això iniciarà l'aplicació en el teu dispositiu o en un emulador.
 
 
-📦 Dependències
+📦 **Dependències**
+
 El projecte utilitza les següents dependències:
 
-flutter: Per crear l'aplicació mòbil multiplataforma.
-provider: Per a la gestió de l'estat de l'aplicació.
-http: Per fer sol·licituds HTTP a l'API de CoinGecko.
-flutter_svg: Per a suport SVG (si és necessari per als gràfics).
-cached_network_image: Per a la càrrega eficient d'imatges en xarxa.
-📝 Com Contribuir
+- **flutter**: Per crear l'aplicació mòbil multiplataforma.
+- **provider**: Per a la gestió de l'estat de l'aplicació.
+- **http**: Per fer sol·licituds HTTP a l'API de CoinGecko.
+- **flutter_svg**: Per a suport SVG (si és necessari per als gràfics).
+- **cached_network_image**: Per a la càrrega eficient d'imatges en xarxa.
+
+📝 **Com Contribuir**
+
 Les contribucions són benvingudes! Si vols millorar el projecte o reportar un bug, segueix els següents passos:
 
-Fes un fork del repositori.
-Crea una nova branca (git checkout -b feature/nova-caracteristica).
-Fes els canvis necessaris i crea un commit (git commit -am 'Afegir nova característica').
-Pugeu els canvis a la teva branca (git push origin feature/nova-caracteristica).
-Obre una pull request per fusionar els canvis.
-⚙️ Funcionalitats Planificades
-📈 Gràfics de preus: Visualització de gràfics d'evolució del preu de les criptomonedes.
-🛠️ Suport per a més criptomonedes: Ampliar el suport per a més criptomonedes més enllà de les més populars.
-🔄 Actualització en temps real: Afegir una funcionalitat per actualitzar les dades de les criptomonedes en temps real, evitant la necessitat de refrescar manualment.
+1. Fes un fork del repositori.
+2. Crea una nova branca (`git checkout -b feature/nova-caracteristica`).
+3. Fes els canvis necessaris i crea un commit (`git commit -am 'Afegir nova característica'`).
+4. Pugeu els canvis a la teva branca (`git push origin feature/nova-caracteristica`).
+5. Obre una pull request per fusionar els canvis.
+
+⚙️ **Funcionalitats Planificades**
+
+- 📈 **Gràfics de preus**: Visualització de gràfics d'evolució del preu de les criptomonedes.
+- 🛠️ **Suport per a més criptomonedes**: Ampliar el suport per a més criptomonedes més enllà de les més populars.
+- 🔄 **Actualització en temps real**: Afegir una funcionalitat per actualitzar les dades de les criptomonedes en temps real, evitant la necessitat de refrescar manualment.
 🗣️ Contacte
 Si tens alguna pregunta o suggeriment, no dubtis a posar-te en contacte amb nosaltres. També pots seguir-nos a les nostres xarxes socials!
 
