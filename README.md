@@ -39,6 +39,19 @@ Segueix aquests passos per executar el projecte localment:
 ```bash
 git clone https://github.com/raullama/coin-gecko-app.git
 
+2. Accedeix a la carpeta del projecte
+cd coin-gecko-app
+
+3. Instal·la les dependències
+bash
+flutter pub get
+
+4. Executa l'aplicació
+flutter run
+
+Això iniciarà l'aplicació en el teu dispositiu o en un emulador.
+
+
 📦 Dependències
 El projecte utilitza les següents dependències:
 
